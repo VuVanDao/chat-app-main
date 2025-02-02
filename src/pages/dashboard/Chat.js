@@ -109,7 +109,6 @@ const Chat = () => {
     <Box
       sx={{
         position: "relative",
-        height: "100vh",
         width: 320,
         backgroundColor:
           theme.palette.mode === "light"
@@ -124,7 +123,7 @@ const Chat = () => {
           justifyContent="space-between"
           alignItems={"center"}
         >
-          <Typography variant="h3">Chart</Typography>
+          <Typography variant="h3">Chat</Typography>
           <IconButton>
             <CircleDashed />
           </IconButton>
